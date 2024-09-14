@@ -4,7 +4,7 @@ const ctx = canvas.getContext('2d');
 
 // Set up player properties
 const playerSize = 50;
-const playerColor = 'black';
+const playerColor = 'white';
 const playerSpeed = 5;
 let playerPos = { x: 50, y: 50 };
 
