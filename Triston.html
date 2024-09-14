@@ -58,12 +58,15 @@
     50% { border-color: rgb(255, 255, 255) }
   }
 </style>
+  <style> 
+    body { margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #87CEFA; /* Sky blue */ } canvas { border: 1px solid #000; background-color: #2E8B57; /* Sea green */ } 
+  </style>
 </head>
 <body style="background-color:black;">
 
 <div class="shimmer-typing">
   <div class="typing-animation">This is the story of a child named Triston Wyle, an aspiring game designer who is cool.</div>
 </div>
-
+ <canvas id="gameCanvas" width="800" height="600"></canvas> <script src="game.js"></script> 
 </body>
 </html>
